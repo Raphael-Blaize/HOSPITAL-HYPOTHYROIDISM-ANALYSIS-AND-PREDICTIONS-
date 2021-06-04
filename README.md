@@ -4,7 +4,7 @@
 
 Dataset - [Source link](http://bit.ly/hypothyroid_data)
 
-Python Notebook - [Notebook]()
+Python Notebook - [Notebook](https://colab.research.google.com/drive/1tSYahpRzprTPHfVzlB0Q_kfWjJGM2reS?usp=sharing)
 
 
 
