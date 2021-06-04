@@ -37,8 +37,9 @@ Part 2: SVM:
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
+Nairobi Hospital conducted a clinical camp to test for hypothyroidism. The data collected focused on Thyroid patients. Use the healthcare datasets provided to accomplish the following:  
 
-As a Data Scientist, you work for Hass Consulting Company which is a real estate leader with over 25 years of experience. You have been tasked to study the factors that affect housing prices using the given information on real estate properties that was collected over the past few months. Later onwards, create a model that would allow the company to accurately predict the sale of prices upon being provided with the predictor variables. 
+Build a model that determines whether or not the patient's symptoms indicate that the patient has hypothyroi
 
 
 ### Methods Used
@@ -48,13 +49,10 @@ As a Data Scientist, you work for Hass Consulting Company which is a real estate
 * EDA Analysis
 * Machine learning Algorithms
 * Kfold cross-validation
-* Multicollinearity tests
 * Heteroskdasticity tests
-* Multiple Linear Regression
-* Quantile Regression
-* Ridge Regression
-* Lasso Regression
-* Elastic Net Regression
+* Decision trees
+* Support Vector machine
+* Grid search CV
    
 ### Technologies
 * Python
@@ -70,15 +68,13 @@ import numpy as np # offers comprehensive mathematical functions etc
     *  Boxplots to get rid of outliers in the data
     *  No null/missing values in the dataset 
     *  No duplicates in the dataset
-    *  Concatinating and Merging of columns in the dataset
     *  Dropping of unnecessary columns in the dataset
     *  Creating Dummy variabels
     *  Label  Encoding 
-    *  Changing of Date type columns 
+    *  Changing of columns 
     
  * Data Analysis used
       * Univariate Analysis 
-          * Frequency Distibutions
           * Bar graphs
           * Descriptive Statistics
               * Standard deviation
@@ -87,25 +83,17 @@ import numpy as np # offers comprehensive mathematical functions etc
               * Skewness
               * Kurtosis
        * Bivariate Analysis
-           * line graphs
            * scatterplots
        * Multivariate Analysis 
            * Pair plots
   * Modelling
-       * Multicollinearity  tests
-           * Using VIF to check for multicollinearity in our dataset
-       * Heteroskdestacity tests
-            * Residual plots
-            * Bartlett's test
-       * Machine Learning algorithms
-            * * Multiple Linear Regression
-            * Quantile Regression
-            * Ridge Regression
-            * Lasso Regression
-            * Elastic Net Regression
+       * Desicision Trees
+            * Scaling data
+            * Feature Importance
+       * Support Vector Machine
+            * Modeeling with different kernels (poly, linear and rbf(radial basis function))
             * K-fold cross validation
-            * Grid-search 
-
+            * Grid search cv(Hyperparameter tuning)  
    
 ## Needs of this project
 - data exploration/descriptive statistics
